@@ -13,8 +13,8 @@ A clear and concise description of what the bug is.
 **Clearly describe how to reproduce the bug**
 Steps to reproduce the problem.
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**Mod list**
+List your currently loaded mods, and whether or not they're active.
 
 **System info (please complete the following information)**
  - Operating system: 
