@@ -1,2 +1,2 @@
-# ppg-bug-reports
-Bug report issue tracker
+# people playground bug & feature request tracker
+Report bugs, request features.
