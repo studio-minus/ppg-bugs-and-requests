@@ -1,0 +1,77 @@
+name: Bug Report
+description: File a bug report
+title: ""
+labels: ["bug"]
+assignees:
+  - mestiez
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please make sure this bug was not already filed!
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: Write a clear and concise description of what the bug is. What is going wrong? What are you expecting to happen?
+      placeholder: Clear bug description.
+    validations:
+      required: true
+      
+  - type: textarea
+    id: steps
+    attributes:
+      label: Clearly describe how to reproduce the bug
+      description: Write the necessary steps to reproduce the problem. What do I need to do after opening the game to reproduce the bug you have encountered?
+      placeholder: A series of clear, reproducible steps.
+    validations:
+      required: true
+ 
+  - type: textarea
+    id: debug-info
+    attributes:
+      label: Game debug info
+      description: Open the game, go to information, press the "Export debug info" button, then press "Open file explorer". Drag the selected file into the textbox blow.
+      placeholder: Drag the file in!
+    validations:
+      required: false
+      
+  - type: markdown
+    attributes:
+      value: |
+        If you can't open the game to export debug info, please fill in the following. Otherwise you can skip the rest and press submit.
+        
+  - type: textarea
+    id: mod-list
+    attributes:
+      label: Mod list
+      description: Include a list of your mods here and specifiy whether they're activated or not. Make sure to include deactivated mods, as they could still have an effect.
+      placeholder: List of all mods, active or inactive.
+    validations:
+      required: false
+
+  - type: input
+    id: system-info-version
+    attributes:
+      label: Game version
+      description: Enter the game version (go to Main menu -> Information)
+      placeholder: The exact game version (eg. `1.26 preview 3`)
+    validations:
+      required: false
+         
+  - type: input
+    id: system-info-os
+    attributes:
+      label: Operating System
+      description: Enter your operating system
+      placeholder: Windows 11, Windows 7, Debian 11, etc.
+    validations:
+      required: false     
+          
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Additional notes
+      description: Is there anything else I need to know?
+    validations:
+      required: false
