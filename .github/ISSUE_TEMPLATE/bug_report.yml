@@ -39,7 +39,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        If you can't open the game to export debug info, please fill in the following. Otherwise you can skip the rest and press submit.
+        ## If you can't open the game to export debug info, please fill in the following. Otherwise you can skip the rest and press submit.
         
   - type: textarea
     id: mod-list
