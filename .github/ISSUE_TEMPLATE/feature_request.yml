@@ -1,0 +1,36 @@
+name: Feature request
+description: Suggest something for the game
+title: "ex. an X that does Y"
+labels: ["feature-request"]
+assignees:
+  - mestiez
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please make sure this was not already suggested/accepted/rejected!
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature description
+      description: Describe the requested feature. 
+      placeholder: Avoid vague words like "more", "better". Is it a new spawnable item? Is it a new map? A new mechanic or system? How does it work? 
+    validations:
+      required: true
+      
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Feature purpose
+      description: Describe the purpose here. 
+      placeholder: Why would I spend time implementing this? What made you request this feature? What is its purpose? Are you sure it doesn't already exist in some form?
+    validations:
+      required: true
+ 
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context, screenshots, or drawings about the feature request here.
+    validations:
+      required: false
