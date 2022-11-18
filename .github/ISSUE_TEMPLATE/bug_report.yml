@@ -1,6 +1,6 @@
-name: Bug Report
+name: Bug report
 description: File a bug report
-title: "Bug:"
+title: "ex. X does Y instead of Z"
 labels: ["bug"]
 assignees:
   - mestiez
@@ -55,7 +55,7 @@ body:
     attributes:
       label: Game version
       description: Enter the game version (go to Main menu -> Information)
-      placeholder: The exact game version (eg. `1.26 preview 3`)
+      placeholder: The exact game version (ex. `1.26 preview 3`)
     validations:
       required: false
          
@@ -64,7 +64,7 @@ body:
     attributes:
       label: Operating System
       description: Enter your operating system
-      placeholder: Windows 11, Windows 7, Debian 11, etc.
+      placeholder: ex. Windows 11, Windows 7, Debian 11, etc.
     validations:
       required: false     
           
