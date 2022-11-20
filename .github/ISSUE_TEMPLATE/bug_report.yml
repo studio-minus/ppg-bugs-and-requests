@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please make sure this bug was not already filed!
+        ## Please make sure this bug was not already filed!
   - type: textarea
     id: description
     attributes:
@@ -72,6 +72,6 @@ body:
     id: additional-notes
     attributes:
       label: Additional notes
-      description: Is there anything else I need to know?
+      description: Is there anything else I need to know? Screenshots or videos of the bug would be appreciated.
     validations:
       required: false
