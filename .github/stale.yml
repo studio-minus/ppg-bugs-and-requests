@@ -4,8 +4,11 @@ daysUntilStale: 30
 # Number of days of inactivity before a stale issue is closed
 daysUntilClose: 4
 
-onlyLabels:
-  - unclear
+exemptLabels:
+  - stale
+  - bug
+  - feature-request
+  - pending
   
 # Label to use when marking an issue as stale
 staleLabel: stale
